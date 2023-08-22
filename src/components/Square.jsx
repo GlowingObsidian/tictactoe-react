@@ -1,7 +1,6 @@
-/* eslint-disable react/prop-types */
-const Square = ({ value }) => {
+const Square = ({ value, onClick }) => {
   return (
-    <button type="button" className="square">
+    <button type="button" className="square" onClick={onClick}>
       {value}
     </button>
   );
