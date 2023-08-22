@@ -4,8 +4,6 @@ import Square from "./Square";
 const Board = () => {
   const [squares, setSquare] = useState(Array(9).fill(null));
 
-  const hello = null;
-
   const handleSquareClick = (clickedPosition) => {
     setSquare((currentSquares) => {
       return currentSquares.map((squareVal, position) => {
